@@ -1,0 +1,13 @@
+:root {
+  --color-tomato: tomato;
+  --color-light-grey: #9e9ea7;
+  --color-light-black: #0d0c22;
+  --color-lightish-gray: rgb(255, 255, 255);
+  --space-smaller: 4px;
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-big: 24px;
+  --space-bigger: 48px;
+  --font-family: "Montserrat", sans-serif;
+  --font-family-text: "Roboto", sans-serif;
+}

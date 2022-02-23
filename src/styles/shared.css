@@ -20,15 +20,12 @@ a {
 
 h2 {
   margin: var(--space-medium) 0;
-  text-align: center;
   font-family: var(--font-family-text);
   font-size: 24px;
   font-weight: 500;
 }
 
 p {
-  margin: var(--space-small) 0;
-  text-align: center;
   font-family: var(--font-family);
   font-size: 18px;
   font-weight: 300;
@@ -41,102 +38,58 @@ button {
 }
 
 .container_main {
-  display: grid;
-  justify-content: center;
+  display: flex;
   width: 100%;
+  background-color: rgb(248, 241, 239);
   padding: 0;
   margin: 0;
-  height: 60vh;
-}
-
-.title_main {
-  display: flex;
-  justify-content: flex-start;
   flex-direction: column;
-  padding: var(--space-big);
-  margin-left: 200px;
 }
 
-.title_main h3 {
-  font-family: var(--font-family);
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 30px;
-  letter-spacing: -0.04em;
-  color: darkgray;
-}
-
-.title_main-empty {
-  width: 50px;
-  height: 3px;
-  background: tomato;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-bottom: 0.4rem;
+.title {
+  flex-basis: 60%;
+  align-items: center;
+  margin: 20px 200px;
+  padding: 0;
 }
 
 .container_sub {
   display: flex;
   flex-direction: row;
-  height: 70%;
-  width: 100%;
-  padding: var(--space-big);
+  padding: 0;
+  margin: 10px 200px;
 }
 
-@media screen and (max-width: 1200px) {
-  .title_main {
-    margin-left: 150px;
+@media screen and (max-width: 1050px) {
+  .title {
+    margin: 20px 100px;
   }
   .container_sub {
-    height: 70%;
+    margin: 10px 100px;
+  }
+  .page_left p {
+    font-size: 17px;
+  }
+  .about_img {
+    width: 300px;
+    height: 250px;
   }
 }
-@media screen and (max-width: 1000px) {
-  .title_main {
-    margin-left: 100px;
-  }
-}
-
 @media screen and (max-width: 900px) {
-  .container_main {
-    height: 100vh;
-  }
-  .title_main {
-    padding: var(--space-big);
-    margin-left: 100px;
-  }
-
   .container_sub {
     display: flex;
     flex-direction: column;
-    height: 90%;
-    justify-content: center;
-    align-items: center;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .container_main {
-    height: 100vh;
+  .title {
+    margin: 20px 50px;
   }
-
-  .title_main {
-    margin-left: 20px;
-  }
-
-  .title_main h3 {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-    letter-spacing: -0.02em;
-  }
-  .title_main-empty {
-    width: 40px;
-    height: 2px;
-  }
-
   .container_sub {
-    display: flex;
-    flex-direction: column;
-    height: 90%;
+    margin: 10px 50px;
+  }
+  .page_left p {
+    margin-right: 0;
   }
 }

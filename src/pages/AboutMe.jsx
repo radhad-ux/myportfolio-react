@@ -1,13 +1,12 @@
 import React from "react";
-import Title from "../components/TitleFeature";
-import picture from "../assets/picture.png";
+import picture from "../assets/Radhanew.png";
 
 const AboutMe = () => {
   return (
     <div className="container_main" id="about">
-      <Title title="About Me" />
+      <h2 className="title">About Me</h2>
       <div className="container_sub">
-        <div className="about_description">
+        <div className="page_left">
           <p>
             My name is Radha Doreswamy. I am a passionate FrontEnd Developer
             based in Stockholm, Sweden.
@@ -19,8 +18,8 @@ const AboutMe = () => {
           </p>
           <p>Scroll down to see some of my work!</p>
         </div>
-        <div className="about_img">
-          <img src={picture} alt="lady with laptop" />
+        <div className="page_right">
+          <img className="about_img" src={picture} alt="lady" />
         </div>
       </div>
     </div>

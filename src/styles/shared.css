@@ -22,7 +22,7 @@ h2 {
   margin: var(--space-medium) 0;
   text-align: center;
   font-family: var(--font-family-text);
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
 }
 
@@ -32,9 +32,111 @@ p {
   font-family: var(--font-family);
   font-size: 18px;
   font-weight: 300;
+  color: var(--color-light-black);
 }
 
 button {
   display: flex;
   margin-top: 20px;
+}
+
+.container_main {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 60vh;
+}
+
+.title_main {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: var(--space-big);
+  margin-left: 200px;
+}
+
+.title_main h3 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.04em;
+  color: darkgray;
+}
+
+.title_main-empty {
+  width: 50px;
+  height: 3px;
+  background: tomato;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0.4rem;
+}
+
+.container_sub {
+  display: flex;
+  flex-direction: row;
+  height: 70%;
+  width: 100%;
+  padding: var(--space-big);
+}
+
+@media screen and (max-width: 1200px) {
+  .title_main {
+    margin-left: 150px;
+  }
+  .container_sub {
+    height: 70%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .title_main {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container_main {
+    height: 100vh;
+  }
+  .title_main {
+    padding: var(--space-big);
+    margin-left: 100px;
+  }
+
+  .container_sub {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container_main {
+    height: 100vh;
+  }
+
+  .title_main {
+    margin-left: 20px;
+  }
+
+  .title_main h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+  }
+  .title_main-empty {
+    width: 40px;
+    height: 2px;
+  }
+
+  .container_sub {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+  }
 }

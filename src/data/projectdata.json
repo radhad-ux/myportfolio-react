@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Eika-TodoList",
+    "image": "todo.png"
+  },
+
+  {
+    "id": 2,
+    "title": "Vegan Restaurant",
+    "image": "vegan.jpg"
+  },
+
+  {
+    "id": 3,
+    "title": "Package Tracker",
+    "image": "package.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Todolist-TDD",
+    "image": "todotdd.png"
+  },
+  {
+    "id": 5,
+    "title": "E-Commerce site",
+    "image": "lms.jpg"
+  },
+  {
+    "id": 6,
+    "title": "BBQ Restaurant",
+    "image": "bbq.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Learning platform",
+    "image": "todothree.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Netflix clone",
+    "image": "netflix.jpg"
+  }
+]

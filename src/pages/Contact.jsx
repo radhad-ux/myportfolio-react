@@ -1,0 +1,27 @@
+import React from "react";
+import contactdata from "../data/contactdata.json";
+import ContactItem from "../components/ContactItem";
+
+const Contact = () => {
+  const ContactList = contactdata.map((data) => (
+    <ContactItem key={data.id} data={data} />
+  ));
+  return (
+    <div className="container_main">
+      <h2 className="title">Contact</h2>
+      <div className="container_sub">
+        <div className="page_left">
+          <p>
+            Here is my contact information if you are interested in starting a
+            collaboration
+          </p>
+        </div>
+        <div className="page_right">
+          <div className="contact_list"></div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;

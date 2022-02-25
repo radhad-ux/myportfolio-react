@@ -2,63 +2,63 @@
   {
     "id": 1,
     "title": "React",
-    "image": "react-brands.png"
+    "image": "react.png"
   },
 
   {
     "id": 2,
-    "title": "React",
-    "image": "react-brands.png"
+    "title": "JavaScript",
+    "image": "js.png"
   },
 
   {
     "id": 3,
-    "title": "React",
-    "image": "react-brands.png"
+    "title": "HTML",
+    "image": "html5.png"
   },
   {
     "id": 4,
-    "title": "React",
-    "image": "react-brands.png"
+    "title": "CSS",
+    "image": "css3.png"
   },
   {
     "id": 5,
-    "title": "React",
-    "image": "react-brands.png"
+    "title": "Java",
+    "image": "java.png"
   },
   {
     "id": 6,
-    "title": "React",
-    "image": "react-brands.png"
+    "title": "Sass",
+    "image": "sass.png"
   },
   {
     "id": 7,
-    "title": "React",
-    "image": "react-brands.png"
+    "title": "Git",
+    "image": "git.png"
   },
   {
     "id": 8,
-    "title": "React",
-    "image": "react-brands.png"
+    "title": "Jenkins",
+    "image": "jenkins.png"
   },
   {
     "id": 9,
-    "title": "React",
-    "image": "react-brands.png"
+    "title": "Docker",
+    "image": "docker.png"
   },
   {
     "id": 10,
-    "title": "React",
-    "image": "react-brands.png"
+    "title": "Figma",
+    "image": "figma.png"
   },
   {
     "id": 11,
-    "title": "React",
-    "image": "react-brands.png"
+    "title": "Firebase",
+    "image": "firebase.png"
   },
   {
     "id": 12,
-    "title": "React",
-    "image": "react-brands.png"
+    "title": "TypeScript",
+    "image": "typescript.png"
   }
 ]

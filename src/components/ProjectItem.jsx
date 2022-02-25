@@ -1,7 +1,5 @@
 import React from "react";
 
-//const ProjectItem = ({ data }) => {
-
 const ProjectItem = ({ data }) => {
   const { title, image } = data;
   const imageObject = require(`../assets/images/project/${image}`);

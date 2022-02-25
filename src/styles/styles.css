@@ -2,6 +2,7 @@
 @import "./aboutme.css";
 @import "./home.css";
 @import "./project.css";
+@import "./tech.css";
 
 /*components*/
 @import "./navbar.css";

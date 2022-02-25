@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "radhad83@gmail.com",
+    "link": "mailto:radhad83@gmail.com",
+    "image": "todo.png"
+  },
+
+  {
+    "id": 2,
+    "title": "+46 764221662",
+    "link": "tel: +46 764221662",
+    "image": "vegan.jpg"
+  },
+
+  {
+    "id": 3,
+    "title": "Stockholm, Sweden",
+    "link": "https://www.google.com/maps/place/Stockholm",
+    "image": "package.jpg"
+  }
+]

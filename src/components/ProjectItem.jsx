@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectItem = ({ data }) => {
+const ProjectItem = ({ data, onClick }) => {
   const { title, image } = data;
   const imageObject = require(`../assets/images/project/${image}`);
 
@@ -10,6 +10,7 @@ const ProjectItem = ({ data }) => {
         className="project_image"
         src={imageObject}
         alt="Project picture I am working on"
+        onClick={onClick}
       />
       <h3 className="project_title">{title}</h3>
     </div>

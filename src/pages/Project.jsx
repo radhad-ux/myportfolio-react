@@ -1,10 +1,15 @@
 import React from "react";
 import projectsdata from "../data/projectdata.json";
 import ProjectItem from "../components/ProjectItem";
+import ModalForm from "../components/ModalForm";
 
-const Project = () => {
+const Project = ({ setShowModal }) => {
   const ProjectList = projectsdata.map((data) => (
-    <ProjectItem key={data.id} data={data} />
+    <ProjectItem
+      key={data.id}
+      data={data}
+      onClick={() => setShowModal(ModalForm)}
+    />
   ));
 
   return (

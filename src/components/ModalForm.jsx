@@ -1,9 +1,16 @@
 import React from "react";
 
-const ModalForm = () => {
+const ModalForm = ({ data }) => {
+  const { title, image } = data;
+  const imageURL = require(`../assets/images/project/${image}`);
   return (
-    <div>
-      <h3>This is a Modal form to show project info</h3>
+    <div className="container_popup">
+      <div className="popup_left">
+        <img src={imageURL} alt="project_popimage" />
+      </div>
+      <div className="popup_right">
+        <h3>{title}</h3>
+      </div>
     </div>
   );
 };

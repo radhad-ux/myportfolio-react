@@ -8,7 +8,7 @@ const Project = ({ setShowModal }) => {
     <ProjectItem
       key={data.id}
       data={data}
-      onClick={() => setShowModal(ModalForm)}
+      onClick={() => setShowModal(<ModalForm data={data} />)}
     />
   ));
 

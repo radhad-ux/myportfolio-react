@@ -6,6 +6,7 @@
 @import "./tech.css";
 
 /*components*/
+@import "./modal.css";
 @import "./navbar.css";
 @import "./footer.css";
 

@@ -1,14 +1,18 @@
-import React from "react";
+import ReactDOM from "react-dom";
 
 const Modal = ({ showModal, setShowModal }) => {
   //safeguard
   if (showModal === null) return null;
 
-  return (
-    <div className="container_modal">
-      <button onClick={() => setShowModal(null)}>X</button>
-      {showModal}
-    </div>
+  return ReactDOM.createPortal(
+    <>
+      <div className="overlay_style"></div>
+      <div className="modal_style">
+        <button onClick={() => setShowModal(null)}>X</button>
+        {showModal}
+      </div>
+    </>,
+    document.getElementById("portal")
   );
 };
 

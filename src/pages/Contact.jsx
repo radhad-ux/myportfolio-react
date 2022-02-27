@@ -1,13 +1,14 @@
 import React from "react";
 import contactdata from "../data/contactdata.json";
 import ContactItem from "../components/ContactItem";
+import Footer from "../components/Footer";
 
 const Contact = () => {
   const ContactList = contactdata.map((data) => (
     <ContactItem key={data.id} data={data} />
   ));
   return (
-    <div className="container_main">
+    <div className="container_main" id="contact">
       <h2 className="title">Contact</h2>
       <div className="container_sub">
         <div className="page_left">
@@ -17,9 +18,10 @@ const Contact = () => {
           </p>
         </div>
         <div className="page_right">
-          <div className="contact_list"></div>
+          <div className="contact_list">{ContactList}</div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

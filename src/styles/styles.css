@@ -1,11 +1,13 @@
 /* pages */
 @import "./aboutme.css";
+@import "./contact.css";
 @import "./home.css";
 @import "./project.css";
 @import "./tech.css";
 
 /*components*/
 @import "./navbar.css";
+@import "./footer.css";
 
 @import "./shared.css";
 @import "./variables.css";

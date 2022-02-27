@@ -1,0 +1,38 @@
+#contact {
+  background-color: rgb(228, 226, 226);
+}
+.contact_list {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid violet;
+}
+.contact_item {
+  margin: 5px 5px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.contact_item a {
+  padding: 0px 10px;
+}
+.contact_item span {
+  font-family: var(--font-family-text);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.contact_image {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .contact_list {
+    width: 100%;
+  }
+  .contact_item a {
+    padding: 0px;
+  }
+}

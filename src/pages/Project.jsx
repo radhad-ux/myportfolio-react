@@ -1,10 +1,10 @@
-import React from "react";
+//Project files
 import projectsdata from "../data/projectdata.json";
 import ProjectItem from "../components/ProjectItem";
 import ModalForm from "../components/ModalForm";
 
 const Project = ({ setShowModal }) => {
-  const ProjectList = projectsdata.map((data) => (
+  const ProjectsList = projectsdata.map((data) => (
     <ProjectItem
       key={data.id}
       data={data}
@@ -23,7 +23,7 @@ const Project = ({ setShowModal }) => {
           </p>
         </div>
         <div className="page_right">
-          <div className="project_list">{ProjectList}</div>
+          <div className="project_list">{ProjectsList}</div>
         </div>
       </div>
     </div>

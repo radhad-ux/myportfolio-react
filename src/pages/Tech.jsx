@@ -3,7 +3,7 @@ import techdata from "../data/techdata.json";
 import TechItem from "../components/TechItem";
 
 const Tech = () => {
-  const TechList = techdata.map((data) => (
+  const TechsList = techdata.map((data) => (
     <TechItem key={data.id} data={data} />
   ));
 
@@ -18,7 +18,7 @@ const Tech = () => {
           </p>
         </div>
         <div className="page_right">
-          <div className="tech_list">{TechList}</div>
+          <div className="tech_list">{TechsList}</div>
         </div>
       </div>
     </div>

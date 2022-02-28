@@ -6,10 +6,11 @@ const Modal = ({ showModal, setShowModal }) => {
 
   return ReactDOM.createPortal(
     <>
-      <div className="overlay_style"></div>
-      <div className="modal_style">
-        <button onClick={() => setShowModal(null)}>X</button>
-        {showModal}
+      <div className="overlay_style">
+        <div className="modal_style">
+          <button onClick={() => setShowModal(null)}>X</button>
+          {showModal}
+        </div>
       </div>
     </>,
     document.getElementById("portal")

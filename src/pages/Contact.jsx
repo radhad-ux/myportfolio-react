@@ -4,7 +4,7 @@ import ContactItem from "../components/ContactItem";
 import Footer from "../components/Footer";
 
 const Contact = () => {
-  const ContactList = contactdata.map((data) => (
+  const ContactsList = contactdata.map((data) => (
     <ContactItem key={data.id} data={data} />
   ));
   return (
@@ -18,7 +18,7 @@ const Contact = () => {
           </p>
         </div>
         <div className="page_right">
-          <div className="contact_list">{ContactList}</div>
+          <div className="contact_list">{ContactsList}</div>
         </div>
       </div>
       <Footer />

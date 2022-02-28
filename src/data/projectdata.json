@@ -2,43 +2,91 @@
   {
     "id": 1,
     "title": "Eika-TodoList",
-    "image": "todo.png"
+    "image": "todo.png",
+    "description": "A shopping list app where users can add item to shop",
+    "technologies": ["React", "JavaScript", "HTML", "CSS", "Firebase"],
+    "isCompleted": true,
+    "screenshot": "eikass.png",
+    "githubURL": "",
+    "websiteURL": ""
   },
 
   {
     "id": 2,
     "title": "Vegan Restaurant",
-    "image": "vegan.jpg"
+    "image": "vegan.jpg",
+    "description": "",
+    "technologies": ["React", "JavaScript", "HTML", "CSS", "Firebase"],
+    "isCompleted": false,
+    "screenshot": "eikass.png",
+    "githubURL": "",
+    "websiteURL": ""
   },
 
   {
     "id": 3,
     "title": "Package Tracker",
-    "image": "package.jpg"
+    "image": "package.jpg",
+    "description": "",
+    "technologies": ["React", "JavaScript", "HTML", "CSS", "Firebase"],
+    "isCompleted": false,
+    "screenshot": "eikass.png",
+    "githubURL": "",
+    "websiteURL": ""
   },
   {
     "id": 4,
     "title": "Todolist-TDD",
-    "image": "todotdd.png"
+    "image": "todotdd.png",
+    "description": "",
+    "technologies": ["React", "JavaScript", "HTML", "CSS", "Firebase"],
+    "isCompleted": false,
+    "screenshot": "eikass.png",
+    "githubURL": "",
+    "websiteURL": ""
   },
   {
     "id": 5,
     "title": "E-Commerce site",
-    "image": "lms.jpg"
+    "image": "lms.jpg",
+    "description": "",
+    "technologies": ["React", "JavaScript", "HTML", "CSS", "Firebase"],
+    "isCompleted": false,
+    "screenshot": "eikass.png",
+    "githubURL": "",
+    "websiteURL": ""
   },
   {
     "id": 6,
     "title": "BBQ Restaurant",
-    "image": "bbq.jpg"
+    "image": "bbq.jpg",
+    "description": "",
+    "technologies": ["React", "JavaScript", "HTML", "CSS", "Firebase"],
+    "isCompleted": false,
+    "screenshot": "eikass.png",
+    "githubURL": "",
+    "websiteURL": ""
   },
   {
     "id": 7,
     "title": "Learning platform",
-    "image": "todothree.jpg"
+    "image": "todothree.jpg",
+    "description": "",
+    "technologies": ["React", "JavaScript", "HTML", "CSS", "Firebase"],
+    "isCompleted": false,
+    "screenshot": "eikass.png",
+    "githubURL": "",
+    "websiteURL": ""
   },
   {
     "id": 8,
     "title": "Netflix clone",
-    "image": "netflix.jpg"
+    "image": "netflix.jpg",
+    "description": "",
+    "technologies": ["React", "JavaScript", "HTML", "CSS", "Firebase"],
+    "isCompleted": false,
+    "screenshot": "eikass.png",
+    "githubURL": "",
+    "websiteURL": ""
   }
 ]

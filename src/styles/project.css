@@ -36,6 +36,27 @@
   font-weight: 400;
   padding: 10px 0px;
 }
+.overlay img {
+  opacity: 0.3;
+}
+
+.project_text {
+  display: flex;
+  margin-top: 50px;
+  position: absolute;
+  margin-left: 35px;
+}
+
+.project_text h4 {
+  font-family: var(--font-family-text);
+  font-size: 12px;
+  font-weight: 900;
+  color: black;
+  text-transform: uppercase;
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 1250px) {
   .project_list {
     width: 100%;

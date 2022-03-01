@@ -8,7 +8,9 @@ const Modal = ({ showModal, setShowModal }) => {
     <>
       <div className="overlay_style">
         <div className="modal_style">
-          <button onClick={() => setShowModal(null)}>X</button>
+          <div className="btn_cancel">
+            <button onClick={() => setShowModal(null)}>X</button>
+          </div>
           {showModal}
         </div>
       </div>

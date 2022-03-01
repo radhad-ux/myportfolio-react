@@ -6,16 +6,17 @@ const ProjectItem = ({ data, onClick }) => {
 
   return (
     <>
-      <div
-        onClick={isCompleted ? onClick : ""}
-        className={isCompleted ? "popup" : "overlay"}
-      >
-        {isCompleted === false && (
-          <div className="project_text">
-            <h4>Coming Soon</h4>
-          </div>
-        )}
-        <div className="project_item">
+      <div className="project_item">
+        <div
+          onClick={isCompleted ? onClick : ""}
+          className={isCompleted ? "popup" : "overlay"}
+        >
+          {isCompleted === false && (
+            <div className="project_text">
+              <h4>Coming Soon</h4>
+            </div>
+          )}
+
           <img
             className="project_image"
             src={imageURL}

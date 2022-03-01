@@ -1,8 +1,19 @@
 import React from "react";
 
 const ModalForm = ({ data }) => {
-  const { title, description, screenshot, githubURL, websiteURL } = data;
+  const {
+    title,
+    description,
+    screenshot,
+    technologies,
+    githubURL,
+    websiteURL,
+  } = data;
   const imageURL = require(`../assets/images/project/${screenshot}`);
+
+  const TechInfo = technologies.map((data, index) => (
+    <span key={index}>{data}</span>
+  ));
 
   return (
     <div className="container_popup">
@@ -12,13 +23,14 @@ const ModalForm = ({ data }) => {
       <div className="popup_right">
         <h2>{title}</h2>
         <p>{description}</p>
+        <div className="popup_tech">{TechInfo}</div>
         <div className="button_modal">
-          <button className="button-primary">
+          <button className="btn-secondary" id="btn">
             <a href={githubURL} target="_blank" rel="noreferrer">
               Git repository
             </a>
           </button>
-          <button className="button-primary">
+          <button className="btn-secondary">
             <a href={websiteURL} target="_blank" rel="noreferrer">
               Visit website/app
             </a>

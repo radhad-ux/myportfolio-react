@@ -31,7 +31,7 @@
 .btn_primary {
   outline: none;
   border: none;
-  background-color: tomato;
+  background-color: var(--color-primary);
   color: #fff;
   text-decoration: none;
   border-radius: 50px;

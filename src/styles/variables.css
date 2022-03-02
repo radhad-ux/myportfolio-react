@@ -1,8 +1,10 @@
 :root {
-  --color-tomato: tomato;
+  --color-primary: tomato;
+  --color-secondary: rgb(248, 225, 221);
+  --color-lightpeach: rgb(248, 241, 239);
+  --color-lightgrey: rgb(228, 226, 226);
   --color-light-grey: #9e9ea7;
   --color-light-black: #0d0c22;
-  --color-lightish-gray: rgb(255, 255, 255);
   --space-smaller: 4px;
   --space-small: 8px;
   --space-medium: 16px;

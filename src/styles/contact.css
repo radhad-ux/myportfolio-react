@@ -1,5 +1,5 @@
 #contact {
-  background-color: rgb(228, 226, 226);
+  background-color: var(--color-lightgrey);
 }
 .contact_list {
   width: 90%;

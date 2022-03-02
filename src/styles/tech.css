@@ -1,5 +1,5 @@
 #tech {
-  background-color: rgb(248, 241, 239);
+  background-color: var(--color-lightpeach);
 }
 
 #tech .page_right {

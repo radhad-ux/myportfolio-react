@@ -1,5 +1,5 @@
 #project {
-  background-color: rgb(228, 226, 226);
+  background-color: var(--color-lightgrey);
 }
 
 #project .page_right {

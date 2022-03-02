@@ -2,6 +2,8 @@
 
 This is my personal portfolio website to highlight the projects and the skills I am working and learning.
 
+Portfolio is hosted on:[myportfolio-react](https://myportfolio-react-6a859.web.app)
+
 ---
 
 ## Pre-requisites

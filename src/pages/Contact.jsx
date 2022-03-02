@@ -1,12 +1,13 @@
 import React from "react";
-import contactdata from "../data/contactdata.json";
+import contactsdata from "../data/contactdata.json";
 import ContactItem from "../components/ContactItem";
 import Footer from "../components/Footer";
 
-const Contact = () => {
-  const ContactsList = contactdata.map((data) => (
+export default function Contact() {
+  const ContactsList = contactsdata.map((data) => (
     <ContactItem key={data.id} data={data} />
   ));
+
   return (
     <div className="container_main" id="contact">
       <h2 className="title">Contact</h2>
@@ -24,6 +25,4 @@ const Contact = () => {
       <Footer />
     </div>
   );
-};
-
-export default Contact;
+}

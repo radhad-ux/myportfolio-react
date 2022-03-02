@@ -1,7 +1,7 @@
 import React from "react";
 import picture from "../assets/Radhanew.png";
 
-const AboutMe = () => {
+export default function AboutMe() {
   return (
     <div className="container_main" id="about">
       <h2 className="title">About Me</h2>
@@ -14,16 +14,14 @@ const AboutMe = () => {
           <p>
             I have a passion for developing user-friendly, accessible and
             responsive websites with JavaScript / ReactJS / HTML / CSS. I never
-            stop learning and for me, each new project is another adventure.
+            stop learning and want to challenge myself in every new project.
           </p>
           <p>Scroll down to see some of my work!</p>
         </div>
         <div className="page_right">
-          <img className="about_img" src={picture} alt="lady" />
+          <img className="about_img" src={picture} alt="Indian lady" />
         </div>
       </div>
     </div>
   );
-};
-
-export default AboutMe;
+}

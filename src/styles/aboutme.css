@@ -1,3 +1,6 @@
+#about {
+  background-color: rgb(248, 241, 239);
+}
 .page_left {
   display: flex;
   flex-direction: column;

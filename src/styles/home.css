@@ -22,13 +22,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: rgb(241, 74, 74);
+  color: rgb(39, 36, 36);
 }
 .home_page-content p {
   color: #fff;
 }
 
-.btn-primary {
+.btn_primary {
   outline: none;
   border: none;
   background-color: tomato;
@@ -40,6 +40,10 @@
 }
 
 @media screen and (max-width: 550px) {
+  .home_page-content h2 {
+    text-align: center;
+    font-size: 24px;
+  }
   .home_page-content p {
     text-align: center;
   }

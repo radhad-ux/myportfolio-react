@@ -1,6 +1,6 @@
 import React from "react";
 
-const ModalForm = ({ data }) => {
+export default function ModalForm({ data }) {
   const {
     title,
     description,
@@ -9,9 +9,9 @@ const ModalForm = ({ data }) => {
     githubURL,
     websiteURL,
   } = data;
-  const imageURL = require(`../assets/images/project/${screenshot}`);
 
-  const TechInfo = technologies.map((data, index) => (
+  const imageURL = require(`../assets/images/project/${screenshot}`);
+  const TechsInfo = technologies.map((data, index) => (
     <span key={index}>{data}</span>
   ));
 
@@ -23,7 +23,7 @@ const ModalForm = ({ data }) => {
       <div className="popup_right">
         <h2>{title}</h2>
         <p>{description}</p>
-        <div className="popup_tech">{TechInfo}</div>
+        <div className="popup_tech">{TechsInfo}</div>
         <div className="button_modal">
           <button className="btn-secondary" id="btn">
             <a href={githubURL} target="_blank" rel="noreferrer">
@@ -39,6 +39,4 @@ const ModalForm = ({ data }) => {
       </div>
     </div>
   );
-};
-
-export default ModalForm;
+}

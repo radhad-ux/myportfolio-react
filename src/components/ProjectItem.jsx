@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectItem = ({ data, onClick }) => {
+export default function ProjectItem({ data, onClick }) {
   const { title, image, isCompleted } = data;
   const imageURL = require(`../assets/images/project/${image}`);
 
@@ -20,13 +20,11 @@ const ProjectItem = ({ data, onClick }) => {
           <img
             className="project_image"
             src={imageURL}
-            alt="Project picture I am working on"
+            alt="Project item I am working on"
           />
           <h3 className="project_title">{title}</h3>
         </div>
       </div>
     </>
   );
-};
-
-export default ProjectItem;
+}

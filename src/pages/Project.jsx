@@ -3,7 +3,7 @@ import projectsdata from "../data/projectdata.json";
 import ProjectItem from "../components/ProjectItem";
 import ModalForm from "../components/ModalForm";
 
-const Project = ({ setShowModal }) => {
+export default function Project({ setShowModal }) {
   const ProjectsList = projectsdata.map((data) => (
     <ProjectItem
       key={data.id}
@@ -18,8 +18,8 @@ const Project = ({ setShowModal }) => {
       <div className="container_sub">
         <div className="page_left">
           <p>
-            Here are the projects I will be making during the Frontend course at
-            Novare Potential.
+            Here are the projects I will be working on during the Frontend
+            course at Novare Potential.
           </p>
         </div>
         <div className="page_right">
@@ -28,6 +28,4 @@ const Project = ({ setShowModal }) => {
       </div>
     </div>
   );
-};
-
-export default Project;
+}

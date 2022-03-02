@@ -21,7 +21,7 @@ a {
 h2 {
   margin: var(--space-medium) 0;
   font-family: var(--font-family-text);
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 500;
 }
 
@@ -40,7 +40,7 @@ button {
 .container_main {
   display: flex;
   width: 100%;
-  background-color: rgb(248, 241, 239);
+
   padding: 0;
   margin: 0;
   flex-direction: column;
@@ -59,7 +59,6 @@ button {
   flex-direction: row;
   padding: 0;
   margin: 10px 200px;
-  border: 2px solid red;
 }
 
 @media screen and (max-width: 1050px) {

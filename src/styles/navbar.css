@@ -18,9 +18,9 @@
 }
 .logo_title {
   padding: 0 20px;
+  font-family: cursive;
   text-transform: none;
-  font-family: var(--font-family-text);
-  color: #ff6347;
+  color: rgb(59, 57, 57);
   margin: auto 0;
   font-size: 16px;
   font-weight: 700;
@@ -66,6 +66,18 @@ ul {
     font-weight: 600;
     line-height: 20px;
   }
+  .logo_title {
+    padding: 0 15px;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .logo_title {
+    padding: 0 15px;
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 700;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -74,7 +86,6 @@ ul {
   }
   .navbar_links li a {
     font-weight: 500;
-    line-height: 20px;
     font-size: 15px;
     margin: 0 1rem;
   }
@@ -84,12 +95,6 @@ ul {
   .mobile_screen {
     display: flex;
   }
-  ul {
-    display: flex;
-    flex: 2;
-    align-items: center;
-    justify-content: center;
-  }
 }
 
 @media screen and (max-width: 550px) {
@@ -97,15 +102,24 @@ ul {
     padding: 1.5rem 1rem;
   }
   .navbar_links li a {
-    font-weight: 500;
-    line-height: 15px;
-    font-size: 15px;
-    margin: 0 0.3rem;
+    font-weight: 400;
+    line-height: 14px;
+    font-size: 14px;
+    margin: 0 0.2rem;
   }
-  .big_screen {
-    display: none;
-  }
-  .mobile_screen {
+  ul {
     display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 550px) {
+  .navbar_links {
+    padding: 1.5rem 0.5rem;
+  }
+  .navbar_links li a {
+    line-height: 12px;
+    font-size: 12px;
   }
 }

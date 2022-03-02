@@ -1,7 +1,7 @@
 // NPM files
 import React from "react";
 
-const TechItem = ({ data }) => {
+export default function TechItem({ data }) {
   const { title, image } = data;
   const imageURL = require(`../assets/images/techicons/${image}`);
 
@@ -11,6 +11,4 @@ const TechItem = ({ data }) => {
       <h3 className="tech_title">{title}</h3>
     </div>
   );
-};
-
-export default TechItem;
+}

@@ -1,9 +1,9 @@
 import React from "react";
-import techdata from "../data/techdata.json";
+import techsdata from "../data/techdata.json";
 import TechItem from "../components/TechItem";
 
-const Tech = () => {
-  const TechsList = techdata.map((data) => (
+export default function Tech() {
+  const TechsList = techsdata.map((data) => (
     <TechItem key={data.id} data={data} />
   ));
 
@@ -23,6 +23,4 @@ const Tech = () => {
       </div>
     </div>
   );
-};
-
-export default Tech;
+}

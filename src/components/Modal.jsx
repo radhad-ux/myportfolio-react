@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom";
 
-const Modal = ({ showModal, setShowModal }) => {
+export default function Modal({ showModal, setShowModal }) {
   //safeguard
   if (showModal === null) return null;
 
@@ -17,6 +17,4 @@ const Modal = ({ showModal, setShowModal }) => {
     </>,
     document.getElementById("portal")
   );
-};
-
-export default Modal;
+}

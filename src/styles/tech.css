@@ -1,19 +1,16 @@
 #tech {
-  background-color: #fff;
+  background-color: rgb(248, 241, 239);
 }
-#tech .page_left {
-  border: 2px solid green;
-}
+
 #tech .page_right {
-  border: 2px solid blue;
   padding-right: 0px;
 }
+
 .tech_list {
   width: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  border: 2px solid violet;
 }
 
 .tech_item {
@@ -37,7 +34,8 @@
   font-size: 16px;
   font-weight: 400;
   padding: 0;
-  color: var(--color-light-grey);
+  color: rgb(29, 27, 27);
+  font-family: var(--font-family-text);
 }
 
 @media screen and (max-width: 1250px) {

@@ -8,7 +8,7 @@ const ProjectItem = ({ data, onClick }) => {
     <>
       <div className="project_item">
         <div
-          onClick={isCompleted ? onClick : ""}
+          onClick={isCompleted ? onClick : null}
           className={isCompleted ? "popup" : "overlay"}
         >
           {isCompleted === false && (

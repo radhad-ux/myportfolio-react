@@ -20,7 +20,7 @@
   padding: 0 20px;
   text-transform: none;
   font-family: var(--font-family-text);
-  color: tomato;
+  color: #ff6347;
   margin: auto 0;
   font-size: 16px;
   font-weight: 700;
@@ -50,7 +50,7 @@ ul {
 }
 .navbar_links li :hover {
   color: wheat;
-  background-color: tomato;
+  background-color: #ff6347;
   border-radius: 4px;
   transition: all 0.5s ease-in-out;
 }

@@ -20,6 +20,7 @@ export default function ModalForm({ data }) {
       <div className="popup_left">
         <img src={imageURL} alt="project_popimage" />
       </div>
+      
       <div className="popup_right">
         <h2>{title}</h2>
         <p>{description}</p>

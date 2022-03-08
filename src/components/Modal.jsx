@@ -1,5 +1,6 @@
 import ReactDOM from "react-dom";
 
+// good
 export default function Modal({ showModal, setShowModal }) {
   //safeguard
   if (showModal === null) return null;

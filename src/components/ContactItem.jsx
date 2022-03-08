@@ -1,4 +1,6 @@
+// Unnecesary import -1, you dont need to import React since version 17
 import React from "react";
+
 
 export default function ContactItem({ data }) {
   const { title, link, image } = data;

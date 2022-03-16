@@ -1,5 +1,5 @@
 #tech {
-  background-color: var(--color-lightpeach);
+  background-color: #fff;
 }
 
 #tech .page_right {
@@ -10,7 +10,8 @@
   width: 90%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: left;
+  margin-top: 120px;
 }
 
 .tech_item {
@@ -19,7 +20,7 @@
   margin: 15px 10px;
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
-  justify-content: space-around;
+  justify-content: left;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -50,6 +51,7 @@
   @media screen and (max-width: 900px) {
     .tech_list {
       justify-content: center;
+      margin-top: 20px;
     }
   }
 }

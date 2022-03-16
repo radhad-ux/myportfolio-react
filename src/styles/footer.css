@@ -1,11 +1,10 @@
 .footer_links {
   margin-top: 30px;
   padding: 10px;
-  background-color: var(--color-beige);
+  background-color: rgb(81, 85, 85);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(250, 208, 201);
 }
 
 .social_media {
@@ -30,4 +29,5 @@
 .copy_right p {
   font-size: 12px;
   font-family: var(--font-family);
+  color: #fff;
 }

@@ -4,9 +4,9 @@ import picture from "../assets/Radhanew.png";
 export default function AboutMe() {
   return (
     <div className="container_main" id="about">
-      <h2 className="title">About Me</h2>
       <div className="container_sub">
         <div className="page_left">
+          <h2 className="title">About Me</h2>
           <p>
             My name is Radha Doreswamy. I am a passionate FrontEnd Developer
             based in Stockholm, Sweden.

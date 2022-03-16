@@ -10,9 +10,9 @@ export default function Contact() {
 
   return (
     <div className="container_main" id="contact">
-      <h2 className="title">Contact</h2>
       <div className="container_sub">
         <div className="page_left">
+          <h2 className="title">Contact</h2>
           <p>
             Here is my contact information if you are interested in starting a
             collaboration

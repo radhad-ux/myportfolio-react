@@ -17,10 +17,10 @@
     "image": "vegan.jpg",
     "description": "This is a multi page website which uses complex JSON files to simulate data coming from an API",
     "technologies": ["React", "JavaScript", "HTML", "CSS", "Firebase"],
-    "isCompleted": false,
+    "isCompleted": true,
     "screenshot": "vegan.jpg",
-    "githubURL": "",
-    "websiteURL": ""
+    "githubURL": "https://github.com/radhad-ux/vegan-restaurant-react.git",
+    "websiteURL": "https://vegan-restaurant-react.web.app/"
   },
 
   {

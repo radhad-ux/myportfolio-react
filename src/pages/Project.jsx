@@ -14,9 +14,9 @@ export default function Project({ setShowModal }) {
 
   return (
     <div className="container_main" id="project">
-      <h2 className="title">Projects</h2>
       <div className="container_sub">
         <div className="page_left">
+          <h2 className="title">Projects</h2>
           <p>
             Here are the projects I will be working on during the Frontend
             course at Novare Potential.

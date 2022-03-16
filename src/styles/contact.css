@@ -1,5 +1,8 @@
 #contact {
-  background-color: var(--color-lightgrey);
+  background-color: rgb(188, 189, 189);
+}
+#contact .page_right {
+  margin-top: 150px;
 }
 .contact_list {
   width: 90%;
@@ -9,6 +12,7 @@
 }
 .contact_item {
   margin: 5px 5px;
+  margin-top: 0;
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -30,5 +34,8 @@
 @media screen and (max-width: 900px) {
   .contact_list {
     width: 100%;
+  }
+  #contact .page_right {
+    margin-top: 0px;
   }
 }

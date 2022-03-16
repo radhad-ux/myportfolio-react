@@ -9,9 +9,9 @@ export default function Tech() {
 
   return (
     <div className="container_main" id="tech">
-      <h2 className="title">Technologies I Use</h2>
       <div className="container_sub">
         <div className="page_left">
+          <h2 className="title">Technologies I Use</h2>
           <p>
             Here is the technologies that I already know and also started to
             learn.

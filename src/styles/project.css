@@ -32,7 +32,6 @@
   width: 140px;
   height: 100px;
   padding: 10px;
-
   border-radius: 10px 10px 0px 0px;
 }
 
@@ -40,6 +39,7 @@
   font-size: 15px;
   font-weight: 400;
   padding: 10px 0px;
+  text-align: center;
 }
 .overlay img {
   opacity: 0.6;
@@ -132,7 +132,6 @@
   }
   .project_title {
     font-size: 16px;
-    text-align: center;
   }
   .project_text {
     margin-top: 70px;
